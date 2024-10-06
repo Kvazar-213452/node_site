@@ -1,3 +1,4 @@
 * text=auto
 
-static/css/main.css linguist-documentation
+static/css/**.css linguist-documentation
+static/css/**.map linguist-documentation
