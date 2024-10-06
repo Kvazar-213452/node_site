@@ -1,3 +1,73 @@
-body{
-    background-color: black;
+body {
+    background-color: #23232f;
+    color: aliceblue;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Consolas", "Courier New", monospace;
+}
+
+.foal_left{
+    position: relative;
+    float: right;
+    left: -50px;
+    top: 15px;
+}
+
+.menu{
+    position: fixed;
+    background: #ffffff00;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 70px;
+    width: 100%;
+}
+
+.button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #ffffff00;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button:hover{
+    background-color: #ff5b5b1d;
+}
+
+.name{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    z-index: 1000;
+    color: #ff5b5bd6;
+}
+
+.main{
+    position: relative;
+    top: 70px;
+}
+
+.unr{
+    position: relative;
+    width: calc(100% - 300px);
+    height: 100vh;
+    left: 150px;
+}
+
+.name_block{
+    position: relative;
+    font-size: 26px;
+    color: #ffffffcf;
 }
