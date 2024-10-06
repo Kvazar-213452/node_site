@@ -23,6 +23,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     height: 70px;
     width: 100%;
+    z-index: 1000;
 }
 
 .button{
@@ -47,27 +48,55 @@ body {
 .name{
     position: absolute;
     left: 20px;
-    top: 20px;
-    font-size: 30px;
+    top: 15px;
+    font-size: 35px;
     letter-spacing: 5px;
-    z-index: 1000;
     color: #ff5b5bd6;
 }
 
 .main{
     position: relative;
     top: 70px;
+    z-index: 1;
 }
 
 .unr{
     position: relative;
-    width: calc(100% - 300px);
+    width: calc(100% - 400px);
     height: 100vh;
-    left: 150px;
+    left: 200px;
 }
 
 .name_block{
     position: relative;
-    font-size: 26px;
+    font-size: 30px;
+    font-weight: bold;
     color: #ffffffcf;
+}
+
+.hr{
+    width: 100%;
+    position: relative;
+    height: 2px;
+    background-color: #ff5b5bd6;
+}
+
+.img{
+    position: relative;
+    width: 70%;
+}
+
+.text{
+    color: #ffffffc6;
+}
+
+.main_text{
+    color: #ffffffda;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.numrs{
+    color: #ff6161df;
+    font-weight: bold;
 }
