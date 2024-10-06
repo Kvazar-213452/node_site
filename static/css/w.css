@@ -1,67 +1,22 @@
-body{
-    background: linear-gradient(to right, #ffffff, #dfdfdf);
-}
-
-.nav-link {
-    color: black;
-}
-
-.nav-link::after {
-    background-color: #222222;
-}
-
-.main_tetx,
-.canter_tetx{
-    color: rgb(23, 23, 23);
-}
-
-.nav-link, .navbar-brand{
-    color: rgb(18, 18, 18) !important;
-}
-
-.ssssq,
-.ssssq1{
-    filter: invert(0%);
-}
-
-.scroll-to-top {
-    filter: invert(90%);
-}
-
-.navbar{
-    background-color: #dedede;
-}
-
 body {
-    color: #000000 !important;
+  background-color: #e3e3e3;
+  color: rgba(28, 28, 28, 0.9450980392);
 }
 
-.footer {
-    background-color: #c8c8c8;
+.name_block {
+  color: rgba(28, 28, 28, 0.9450980392);
 }
 
-.footer-col ul li a {
-    color: #000000;
+.text {
+  color: rgba(22, 22, 22, 0.7764705882);
 }
 
-.footer-col ul li a:hover {
-    color: #000000;
+.main_text {
+  color: rgba(21, 21, 21, 0.8549019608);
 }
 
-.footer-col .social-links a {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: #1c1c1c;
+.button {
+  color: rgba(2, 2, 2, 0.9450980392);
 }
 
-.footer-col .social-links a:hover {
-    color: #dedede;
-    background-color: #2c2c2c;
-}
-
-.footer-col h4 {
-    color: #000000;
-}
-
-.nav-item:hover{
-    background-color: #bbbbbb;
-}
+/*# sourceMappingURL=w.css.map */

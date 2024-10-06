@@ -1,67 +1,20 @@
 body{
-    background: linear-gradient(to right, #ffffff, #dfdfdf);
+    background-color: #e3e3e3;
+    color: #1c1c1cf1;
 }
 
-.nav-link {
-    color: black;
+.name_block{
+    color: #1c1c1cf1;
 }
 
-.nav-link::after {
-    background-color: #222222;
+.text{
+    color: #161616c6;
 }
 
-.main_tetx,
-.canter_tetx{
-    color: rgb(23, 23, 23);
+.main_text{
+    color: #151515da;
 }
 
-.nav-link, .navbar-brand{
-    color: rgb(18, 18, 18) !important;
-}
-
-.ssssq,
-.ssssq1{
-    filter: invert(0%);
-}
-
-.scroll-to-top {
-    filter: invert(90%);
-}
-
-.navbar{
-    background-color: #dedede;
-}
-
-body {
-    color: #000000 !important;
-}
-
-.footer {
-    background-color: #c8c8c8;
-}
-
-.footer-col ul li a {
-    color: #000000;
-}
-
-.footer-col ul li a:hover {
-    color: #000000;
-}
-
-.footer-col .social-links a {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: #1c1c1c;
-}
-
-.footer-col .social-links a:hover {
-    color: #dedede;
-    background-color: #2c2c2c;
-}
-
-.footer-col h4 {
-    color: #000000;
-}
-
-.nav-item:hover{
-    background-color: #bbbbbb;
+.button{
+    color: #020202f1;
 }
