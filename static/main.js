@@ -156,3 +156,57 @@ function atvImg() {
 }
 
 atvImg();
+
+
+
+
+
+
+
+
+
+
+
+window.onscroll = function() {
+    var scrollButton = document.querySelector('.scroll-to-top');
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        scrollButton.style.display = "block";
+    } else {
+        scrollButton.style.display = "none";
+    }
+};
+
+function scrollToTop() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function() {
+    function new_tema(newHref) {
+        $('#tema').attr('href', newHref);
+        localStorage.setItem('selectedTheme', newHref);
+    }
+
+    const savedTheme = localStorage.getItem('selectedTheme');
+
+    if (savedTheme) {
+        new_tema(savedTheme);
+        $('.input').prop('checked', (savedTheme === "static/css/b.css"));
+    }
+
+    $('.input').on('change', function() {
+        if ($(this).is(':checked')) {
+            new_tema("static/css/b.css");
+        } else {
+            new_tema("static/css/w.css");
+        }
+    });
+});
