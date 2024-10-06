@@ -100,3 +100,43 @@ body {
     color: #ff6161df;
     font-weight: bold;
 }
+
+.img_1{
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    width: 350px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.img_1:hover{
+    opacity: 0.6;
+}
+
+@media(max-width: 1300px) {
+    .unr{
+        position: relative;
+        width: calc(100% - 200px);
+        height: 100vh;
+        left: 100px;
+    }
+}
+
+@media(max-width: 900px) {
+    .unr{
+        position: relative;
+        width: calc(100% - 100px);
+        height: 100vh;
+        left: 50px;
+    }
+}
+
+@media(max-width: 550px) {
+    .unr{
+        position: relative;
+        width: calc(100% - 20px);
+        height: 100vh;
+        left: 10px;
+    }
+}
