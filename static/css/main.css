@@ -62,13 +62,6 @@ h1 {color: #1ab778;}
     font-style: italic;
 }
 
-.qsas{
-
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 4px;
-}
-
 .fwewsdwq32r{
     background-color: #1c212c;
     border-radius: 5px;
@@ -79,6 +72,8 @@ h1 {color: #1ab778;}
     transition: all .3s;
     text-decoration: none;
     color: #fff;
+    position: relative;
+    margin-bottom: 10px;
 }
 
 .qe289123d:hover {

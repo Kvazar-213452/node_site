@@ -15,15 +15,16 @@
             <input id="file_input_qfEASD" type="file" accept=".css" class="file-input">
             <span id="file_name" class="file-name">Файл невибрано</span>
         </div>
-        <div class="fwewsdwq32r">
-            <% files.forEach(function(file) { %>
-                <a class="qe289123d" download href="static/file/<%= file %>"><%= file %></a>
-            <% }); %>
-        </div>
+        <button class="gweu23gw" onclick="file_send()">Завантажити файл</button>
+        <br><br>
+        <div class="fwewsdwq32r"></div>
         <br>
-        <a href=""><button class="gweu23gw">Обновити</button></a>
+        <button onclick="get_file_render()" class="gweu23gw">Обновити</button>
     </div>
 </body>
 <script src="static/jquery.min.js"></script>
 <script src="static/main.js"></script>
+<script>
+    get_file_render();
+</script>
 </html>
