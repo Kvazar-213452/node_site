@@ -9,6 +9,7 @@
 <body>
     <div class="feq3qefwww">
         <h1>SPX-unix</h1>
+        <p>Час до очистки: <span id="unixwqqw"></span></p>
         <br>
         <div class="file-input-wrapper">
             <label for="file_input_qfEASD" id="f2w311e23qqaaa" class="file-label">Вибрати файл</label>
@@ -26,5 +27,10 @@
 <script src="static/main.js"></script>
 <script>
     get_file_render();
+    get_time();
+
+    setInterval(() => {
+        get_time();
+    }, 15000);
 </script>
 </html>

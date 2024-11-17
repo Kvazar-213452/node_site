@@ -34,7 +34,6 @@ function get_file_render() {
     });
 }
 
-
 function file_send() {
     var fileInput = $('#file_input_qfEASD')[0];
 
@@ -59,6 +58,25 @@ function file_send() {
             } else {
                 alert('Сталася помилка при завантаженні файлу!');
             }
+        },
+        error: function(error) {
+            console.error('Помилка:', error);
+            alert('Сталася помилка при завантаженні файлу!');
+        }
+    });
+}
+
+function get_time() {
+    $.ajax({
+        url: '/time',
+        type: 'POST',
+        data: null,
+        processData: false,
+        contentType: false,
+        success: function(data) {
+            let time = data['time'] / 60
+
+            $("#unixwqqw").html(time + " хв");
         },
         error: function(error) {
             console.error('Помилка:', error);

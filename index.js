@@ -24,6 +24,19 @@ const generateUniqueFileName = (originalName, destination) => {
     return fileName;
 };
 
+app.post('/file', (req, res) => {
+    const fileDir = path.join(__dirname, 'static', 'file');
+
+    fs.readdir(fileDir, (err, files) => {
+        if (err) {
+            console.error('Помилка при читанні файлів:', err);
+            return res.status(500).send({ message: 'Не вдалося отримати файли' });
+        }
+
+        res.json({ files });
+    });
+});
+
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, path.join(__dirname, 'static', 'file'));
