@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SPX</title>
+    <link rel="stylesheet" id="tema" href="static/css/main.css">
 </head>
 <body>
-    
+    <div class="feq3qefwww">
+        <h1>SPX-unix</h1>
+        <br>
+        <div class="file-input-wrapper">
+            <label for="file_input_qfEASD" id="f2w311e23qqaaa" class="file-label">Вибрати файл</label>
+            <input id="file_input_qfEASD" type="file" accept=".css" class="file-input">
+            <span id="file_name" class="file-name">Файл невибрано</span>
+        </div>
+        <div class="fwewsdwq32r">
+            <% files.forEach(function(file) { %>
+                <a class="qe289123d" download href="static/file/<%= file %>"><%= file %></a>
+            <% }); %>
+        </div>
+        <br>
+        <a href=""><button class="gweu23gw">Обновити</button></a>
+    </div>
 </body>
+<script src="static/jquery.min.js"></script>
+<script src="static/main.js"></script>
 </html>

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body{
+    font-family: "Consolas", sans-serif;
+    color: #fff;
+    background-color: #14171f;
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input,
+button{
+    border: none;
+    font-family: "Consolas", sans-serif;
+    color: #fff;
+}
+
+input:focus,
+button:focus{
+    outline: none;
+    font-weight: bold;
+}
+
+input:focus{color: #1ab778;}
+h1 {color: #1ab778;}
+.feq3qefwww{padding: 20px;}
+
+.file-input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.file-input {display: none;}
+
+.file-label {
+    background-color: #1ab778;
+    color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.file-label:hover {
+    background-color: #1c212c;
+    color: #1ab778;
+}
+
+.file-name {
+    font-weight: normal;
+    color: #ffffffcf;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.qsas{
+
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+.fwewsdwq32r{
+    background-color: #1c212c;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.qe289123d{
+    transition: all .3s;
+    text-decoration: none;
+    color: #fff;
+}
+
+.qe289123d:hover {
+    color: #1ab778;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+.gweu23gw{
+    border: none;
+    border-radius: 5px;
+    border: solid 2px #ffffff00;
+    transition: all .3s;
+    color: #fff;
+    background-color: #1c212c;
+    padding: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.gweu23gw:hover {
+    border: solid 2px #1ab778;
+    color: #1ab778;
+}
